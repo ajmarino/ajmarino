@@ -9,4 +9,5 @@ mix.js('resources/js/app.js', 'public/js')
         require('tailwindcss')('tailwind.config.js'),
         // require('css-mqpacker'),
         require('cssnano'),
-    ]);
+    ])
+    .version();
