@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hey there
+
+My name's Anthony, but I mostly go by AJ.  I'm a Senior Frontend Developer based in the NYC Metro area, working for a small company called [Reflexions](https://reflexions.co). Size isn't everything though as we've worked with some pretty big named clients include Aveeno, DraftKings, Fridgedaire, James Beard, State Farm, the country of Aruba, and are currently building the new OMNY website for the MNC MTA.
+
+I work mostly with the Vue / React JS frameworks, that are mostly supported by Laravel / Craft PHP powered backends. I was a big user of the BEM syntax for styling sites, but have moved on to building site mostly with utility classes, namely the excellent Tailwind CSS framework.
 
 <!--
 **ajmarino/ajmarino** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
