@@ -13,6 +13,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return inertia('Home');
+        $projects = require(database_path('data/projects.php'));
+
+        $featured = collect($projects)->filter(function ($proj) {
+            return $proj['is_featured'];
+        })->take(-6);
+
+        return inertia('Home', compact('featured'));
     }
 }

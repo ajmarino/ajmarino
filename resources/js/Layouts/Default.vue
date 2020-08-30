@@ -2,7 +2,7 @@
     <main class="flex flex-col min-h-full w-full px-4 sm:px-6 max-w-3xl mx-auto">
         <header class="text-center pt-8 md:pt-12 lg:pt-16 border-b border-gray-300 shadow-bot-px">
             <div class="mb-12 uppercase">
-                <h1 class="font-montserrat text-2xl mb-2">Anthony Marino</h1>
+                <h1 class="font-montserrat text-2xl text-black mb-2">Anthony Marino</h1>
                 <h2 class="font-lato font-light text-sm text-gray-600">Front End Developer</h2>
             </div>
 
@@ -21,7 +21,7 @@
             </nav>
         </header>
 
-        <article>
+        <article class="flex-1 py-5">
             <slot />
         </article>
 
