@@ -13,6 +13,6 @@ class ContactController extends Controller
      */
     public function index()
     {
-        return inertia('Pages/Contact');
+        return inertia('Contact');
     }
 }

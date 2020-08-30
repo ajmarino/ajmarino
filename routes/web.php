@@ -8,5 +8,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/resume', [ResumeController::class, 'index']);
-Route::get('/projects', [ProjectsController::class, 'index']);
+Route::get('/work', [ProjectsController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);

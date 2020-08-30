@@ -13,6 +13,6 @@ class ResumeController extends Controller
      */
     public function index()
     {
-        return inertia('Pages/Resume');
+        return inertia('Resume');
     }
 }

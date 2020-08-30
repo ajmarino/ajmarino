@@ -13,6 +13,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return inertia('Pages/Home');
+        return inertia('Home');
     }
 }

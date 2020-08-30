@@ -13,6 +13,6 @@ class ProjectsController extends Controller
      */
     public function index()
     {
-        return inertia('Pages/Projects');
+        return inertia('Projects');
     }
 }
