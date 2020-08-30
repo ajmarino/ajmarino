@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import Layout from '../Layouts/App'
+import Default from '../Layouts/Default'
 
 export default {
     props: [],
 
-    layout: Layout,
+    layout: Default,
 
     metaInfo() {
         return {
